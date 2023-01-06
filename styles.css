@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style: none;
+font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    overflow: hidden;
+   
+}
+
+.background{
+    background-image:url(image.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5) rgba(0,0,0,0.5));
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header-link{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+.header-link a{
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+.header-link a:hover{
+    color: black;
+    transition: 0.3s all;
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: solid 1px gray;
+    color: aliceblue;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 15px ;
+}
+
+.logo:hover{
+    background-color: aliceblue;
+    color: gray;
+    transition: 0.5s;
+}
+
+button{
+    color: aliceblue;
+    background: transparent;
+    border: solid 1px gray;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: gray;
+    transition: 0.5s;
+}
+
+.conteiner-text{
+    padding: 200px 0 0 150px;
+}
+
+.text h3{
+    color: black;
+    font-size: 27px;
+}
+.text h1{
+    color: black;
+    margin-top: 10px;
+}
+
+.text span{
+    color: aliceblue;
+}
+
+.text p{
+    font-size: 23px;
+    margin-top: 10px;
+    color: black;
+    font-weight: 300;
+
+}
+
+.Social-media a{
+    color: aliceblue;
+    padding: 20px;
+    margin-top: 5px;
+    font-size: 25px;
+    
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+}
